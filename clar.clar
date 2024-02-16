@@ -1,4 +1,4 @@
-;; Contract name: REX
+;; Contract name: CLAR
 ;; Author: 40230
 ;; Description: Creates a fungible token with a fixed supply.
 
@@ -16,8 +16,8 @@
 
 ;; Initialize the token data
 (define-constant token (token
-  (name "Reputational Exchange")
-  (symbol "REX")
+  (name "Clarity-based Token")
+  (symbol "CLAR")
   (total-supply 1000000000000)
   (minter (principal "SP3J4KHKJEZBWCTDXC1KG0BYKQC1XVJVTHB38X10S"))
   (balances (map (address "ST..."))
